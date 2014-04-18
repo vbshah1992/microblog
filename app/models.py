@@ -1,6 +1,5 @@
 from hashlib import md5
-from app import db
-from app import app
+from app import db, app
 import flask.ext.whooshalchemy as whooshalchemy
 import re
 from config import WHOOSH_ENABLED
